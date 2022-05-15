@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<head>
+    <title>--GYM 365--</title>
+</head>
+<style>
+   
+    body {
+        font-family:"arial" ;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background: url('image/copyrightfree2.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+
+    }
+         a:link {
+         color: white;
+         background-color: transparent;
+         text-decoration: none;
+    }
+
+    .left {
+        display: inline-block; 
+        position: absolute;
+        left: 70px;
+        top: 12px;
+    }
+
+    .left img {
+        width: 136px;
+        filter: invert(100%);
+    }
+
+    .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .mid {
+        display: block;
+        width: 36%;
+        margin: 29px auto;
+        }
+
+    .right {
+        position: absolute;
+        right: 34px;
+        top: 43px;
+        display: inline-block;
+    }
+
+    .navigation {
+        display: inline-block;
+    }
+
+    .navigation li {
+        display: inline-block;
+        font-size: 22px;
+    }
+
+    .navigation li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+
+    }
+
+    .navigation li a:hover,
+    .navigation li a.active {
+        text-decoration: underline;
+        color: red;
+
+    }
+
+    .button {
+        font-family: 'Arial', cursive;
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+
+    .button:hover {
+        background-color: grey;
+    }
+
+    .container {
+        border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 40%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'arial';
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 11px auto;
+        font-size: 25px;
+        border-radius: 8px;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="image/gym365.png" alt="">
+            <div>--GYM 365--</div>
+        </div>
+        <div class="mid">
+            <ul class="navigation">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="file:///C:/Users/Dell/Desktop/New%20folder/Why%20Choose%20Us.html"> Why Choose Us</a></li>
+                <li><a href="https://www.calculator.net/bmi-calculator.html">BMI</a></li>
+                <li><a href="file:///C:/Users/Dell/Desktop/New%20folder/contact%20us.html">Contact Us</a></li>
+            </ul>
+                
+        </div>
+
+        <div class="right">
+            <button class="button"><a href=”tel:8888888888″>Call Now</button></a>
+            <button class="button"> <a href=mailto:gym365@gmail.com>Email Us</button></a>
+           
+        </div>
+    </header>
+    <div class="container">
+        <h1 style = font-size: 51px <pre> FITness ANYtime - Your Time, Your Choice 
+        24*7 GYM 365 </pre></h1>
+        <form action="gym.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Location">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Email-Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Your Phone Number">
+            </div>
+            <button class="button">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
